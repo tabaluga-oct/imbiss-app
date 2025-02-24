@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f0f4f8, #dce2e8);
+    color: #333;
+    line-height: 1.6;
+    background-image: url('bg/plant.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation Styling */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    width: 70%; /* Match the width of the form */
+    margin: 20px auto; /* Center the container */
+    text-align: left; /* Align the button to the right */
+}
+
+.button-container-loeschen {
+    width: 30%; /* Match the width of the form */
+    margin: 20px auto; /* Center the container */
+    text-align: left; /* Align the button to the right */
+}
+
+/* Buttons */
+.button, .logout-btn, button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #8a6f4d;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover, .logout-btn:hover, button:hover {
+    background: #725d3d;
+    transform: translateY(-2px);
+}
+
+.logout-btn {
+    margin-left: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+/* Headings */
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 15px;
+}
+
+/* Tables */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th { background: rgba(138, 111, 77, 0.85); color: white; }
+
+tbody tr:nth-child(even) { background: rgba(255, 255, 255, 0.4); }
+tbody tr:nth-child(odd) { background: rgba(248, 248, 248, 0.3); }
+tbody tr:hover { background: rgba(138, 111, 77, 0.2); }
+
+/* Specific Tables */
+#zebra, #ausgabe {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+#zebra thead, #ausgabe thead {
+    background: rgba(138, 111, 77, 0.8);
+    color: white;
+}
+
+/* Forms & Inputs */
+form, #ausgabe {
+    width: 30%;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ausgabe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Links */
+a { color: #8a6f4d; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container { width: 95%; padding: 15px; }
+    table, form, #ausgabe { width: 80%; }
+    h1 { font-size: 28px; }
+    .button { padding: 10px; font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+    .nav { flex-direction: column; align-items: center; }
+    h1 { font-size: 24px; }
+    #zebra { font-size: 14px; }
+}

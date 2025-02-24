@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
+  <diagram name="Page-1" id="E6iFcdAikx6oz3-XkOcz">
+    <mxGraphModel dx="898" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w52gQLeET-uVoWmeEx1i-1" value="Koch" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-17" value="kocht" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w52gQLeET-uVoWmeEx1i-1" target="w52gQLeET-uVoWmeEx1i-6">
+          <mxGeometry x="0.0325" relative="1" as="geometry">
+            <mxPoint x="160" y="10" as="sourcePoint" />
+            <mxPoint x="280" y="10" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-18" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-17">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-19" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-17">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-140" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-2" value="&lt;div&gt;+ id: int&lt;/div&gt;+ name: string&lt;div&gt;+ vorname: string&lt;/div&gt;&lt;div&gt;+ anzahl_von_sternen: int&lt;/div&gt;&lt;div&gt;+ koch_alter: int&lt;/div&gt;&lt;div&gt;+ geschlecht: string&lt;/div&gt;&lt;div&gt;+ spezialgebiet: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-1">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-6" value="Gekochtes Gericht" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-7" value="+ id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-6">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-8" value="Kunde" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-9" value="&lt;div&gt;+ id: int&lt;/div&gt;+ name: string&lt;div&gt;+ vorname: string&lt;/div&gt;&lt;div&gt;+ email: string&lt;/div&gt;&lt;div&gt;+ lieblingsgericht: string&lt;/div&gt;&lt;div&gt;+ plz: string&lt;/div&gt;&lt;div&gt;+ ort: string&lt;/div&gt;&lt;div&gt;+ strasse: string&lt;/div&gt;&lt;div&gt;+ strassenr: string&lt;/div&gt;&lt;div&gt;+ telefonnr: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-8">
+          <mxGeometry y="26" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-11" value="Rezept" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-12" value="&lt;div&gt;+ id: int&lt;/div&gt;+ name: string&lt;div&gt;+ dauer: int&lt;/div&gt;&lt;div&gt;+ speiseart: string&lt;/div&gt;&lt;div&gt;+ beschreibung: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-11">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-13" value="Bestellung" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-14" value="&lt;div&gt;+ id: int&lt;/div&gt;+ zeitpunkt: datetime&lt;div&gt;+ preise: decimal&lt;/div&gt;&lt;div&gt;+ zahlungsart: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-13">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-15" value="Admin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-16" value="&lt;div&gt;+ id: int&lt;/div&gt;+ username: string&lt;div&gt;+ passwort: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w52gQLeET-uVoWmeEx1i-15">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-20" value="verwendet" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.02;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w52gQLeET-uVoWmeEx1i-6" target="w52gQLeET-uVoWmeEx1i-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="170" as="sourcePoint" />
+            <mxPoint x="650" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-21" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-20">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-22" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-20">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-26" value="enthält" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.6" y="350" as="sourcePoint" />
+            <mxPoint x="409.6" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-27" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-26">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-28" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-26">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-29" value="gehört zu" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=-0.012;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="w52gQLeET-uVoWmeEx1i-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-30" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-29">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w52gQLeET-uVoWmeEx1i-31" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="w52gQLeET-uVoWmeEx1i-29">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
